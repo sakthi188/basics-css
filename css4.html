@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <!-- penguin color changes-->
+    <style>
+        .penguin{
+            --penguin-skin: black;
+            --penguin-belly: gray;
+            --penguin-beak: yellow;
+
+            position: relative;
+            margin: auto;
+            display: block;
+            margin-top: 5%;
+            width:300px;
+            height:300px;
+        }
+
+        .penguin-top{
+            top: 10%;
+            left: 25%;
+            background: var(--penguin-skin,gray);
+            width: 50%;
+            height: 45%;
+            border-radius: 70% 70% 60% 60%;
+        }
+
+        .penguin-bottom{
+            top: 40%;
+            left: 23.5%;
+            background: black;
+            width: 53%;
+            height: 45%;
+            border-radius: 70% 70% 100% 100%;
+        }
+        
+        .right-hand{
+            top: 0%;
+            left: -5%;
+            background: black;
+            width: 30%;
+            height: 60%;
+            border-radius: 30% 30% 120% 30%;
+            transform: rotate(45deg);
+            z-index: -1;
+        }
+
+        .left-hand{
+            top: 0%;
+            left:75%;
+            background: black;
+            width: 30%;
+            height:60%;
+            border-radius: 30% 30% 30% 120%;
+        }
+
+    </style>
+</html>
